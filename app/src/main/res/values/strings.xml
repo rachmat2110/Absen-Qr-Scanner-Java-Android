@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Absen</string>
+    <string name="country_prompt">Pilih kelas</string>
+    <string name="pilih_matkul">Pilih mata kuliah</string>
+    <string name="pilih_minggu">Pilih minggu masuk</string>
+
+    <string-array name="country_arrays">
+        <item>3IA18</item>
+        <item>3IA19</item>
+        <item>3IA20</item>
+        <item>3IA21</item>
+        <item>3IA22</item>
+        <item>3IA23</item>
+    </string-array>
+
+    <string-array name="matkul_arrays">
+        <item>Grafik Komputer</item>
+        <item>Riset Operasional</item>
+        <item>Informatika Kesehata</item>
+    </string-array>
+
+    <string-array name="minggu_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+</resources>

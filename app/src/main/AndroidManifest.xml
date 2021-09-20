@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.absen">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Masukkan_Dosen"></activity>
+        <activity android:name=".ScannerBarcode" />
+        <activity android:name=".Grafik_Mahasiswa_Dosen" />
+        <activity android:name=".Rekap_Absen" />
+        <activity android:name=".Home_Dosen" />
+        <activity android:name=".Barcode_Mahasiswa" />
+        <activity android:name=".Tanggal_Rekap_Mahasiswa" />
+        <activity android:name=".Rekap_Absen_Mahasiswa" />
+        <activity android:name=".Home_Mahasiswa" />
+        <activity android:name=".Grafik_Mahasiswa_Kampus" />
+        <activity android:name=".Masukkan_Mahasiswa" />
+        <activity android:name=".Home_Kampus" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

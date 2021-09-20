@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "722193254737",
+    "project_id": "absen-82302",
+    "storage_bucket": "absen-82302.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722193254737:android:6645a7ce3c75f6c647ab70",
+        "android_client_info": {
+          "package_name": "com.example.absen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722193254737-q8rii91ignf7s11iiitjvdb8ra6701el.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.absen",
+            "certificate_hash": "d97583f4d57c16698d1a1639645768860bc934af"
+          }
+        },
+        {
+          "client_id": "722193254737-54dt2b9cdr22b40e0kj4fi3e176li8ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsjhv0vZszOf_cdHY4OR0IjXDEi1y_vag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722193254737-54dt2b9cdr22b40e0kj4fi3e176li8ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

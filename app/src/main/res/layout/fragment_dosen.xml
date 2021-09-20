@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_gravity="top"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="26dp"
+                android:layout_marginRight="16dp"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login sebagai \nDosen"
+                android:fontFamily="@font/poppins"/>
+
+            <TextView
+                android:fontFamily="@font/poppins"
+                android:textColor="#808080"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isi berdasarkan NIP Anda"
+                android:layout_marginLeft="16dp"/>
+
+            <ImageView
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:background="@drawable/ilustrasi_dosen"/>
+
+            <TextView
+                android:layout_marginRight="16dp"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:fontFamily="@font/poppins"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="password"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:inputType="numberPassword"
+                android:id="@+id/nip_dosen"
+                android:singleLine="true"
+                android:paddingLeft="15dp"
+                android:hint="Masukkan NIP "
+                android:textColor="#000"
+                android:fontFamily="@font/poppins"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textview_adminkampus"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <Button
+                android:id="@+id/masuk_mahasiswa"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:fontFamily="@font/poppins"
+                android:text="MASUK"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

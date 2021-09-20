@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dosen"
+        android:icon="@drawable/ic_dosen_24dp"
+        android:title="Dosen"/>
+
+    <item
+        android:id="@+id/nav_kampus"
+        android:icon="@drawable/ic_kampus_black_24dp"
+        android:title="Kampus"/>
+
+    <item
+        android:id="@+id/nav_mahasiswa"
+        android:icon="@drawable/ic_mahasiswa_24dp"
+        android:title="Mahasiswa"/>
+
+</menu>

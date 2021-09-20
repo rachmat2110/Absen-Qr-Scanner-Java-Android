@@ -1,0 +1,2 @@
+rootProject.name='Absen'
+include ':app'
